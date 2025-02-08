@@ -1,0 +1,47 @@
+#window {
+    border: 1px solid #11998e;
+    background-color: #09122c;
+}
+
+#input {
+    color: #ffffff;
+    padding: 2px 7px;
+    border: 1px solid #11998e;
+    border-radius: 0;
+    background-color: #09122c;
+}
+
+#input:selected {
+    border: 1px solid #11998e;
+}
+
+#text {
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+#img {
+    margin-left: 10px;
+}
+
+#entry:selected {
+    background-color: #11998e;
+    color: grey;
+}
+
+expander {
+    color: #ffffff;
+}
+
+#expander-box:hover {
+    color: red;
+}
+
+expander > list > #entry {
+    color: #000000;
+    background-color: #09122c;
+}
+
+expander > list > #entry:hover {
+    background-color: #11998e;
+}
